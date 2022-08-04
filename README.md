@@ -15,6 +15,6 @@ Fonts VT232 and Quantico were used from https://fonts.google.com in order to fit
 
 
 ## Website Preview
-<img width="946" alt="image" src="https://user-images.githubusercontent.com/93881041/182958983-27c05ca3-e448-441d-b9a5-685cb3142ff3.png">
+<img width="947" alt="image" src="https://user-images.githubusercontent.com/93881041/182972341-3a22cb27-ac26-467b-a37a-f700e358a9e8.png">
 
 #### View the full portfolio on http://juliekye.com
