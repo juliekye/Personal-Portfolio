@@ -8,6 +8,7 @@ html{
 
 body {
   background: #000;
+  background-size: cover;
   padding-bottom: 0;
 }
 .container{
@@ -15,14 +16,14 @@ body {
 }
 canvas {
   display: block;
-  position: fixed;
   z-index:-1;
-  margin-top: -20px; 
+  height:100vh;
+  position: fixed;
+  size: cover;
 }
 
 .header{
   color: white;
-  
 }
 .portfolio-title {
     color:white;
@@ -140,7 +141,10 @@ details[open]{
   position: sticky;
   bottom: 0;
 }
-#linkedin{
-  padding-left: 3px;
+.images{
+  padding-right: 5px;
   padding-bottom: 7px;
+}
+#github{
+  padding-bottom: 5px;
 }
