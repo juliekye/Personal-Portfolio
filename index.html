@@ -4,137 +4,169 @@
 
 <head>
   <meta charset="UTF-8">
-    <title>Julie Kye Portfolio</title>
-    <link rel="stylesheet" href = "style.css">
-    <script src="./cursor.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com"        crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-   
+  <title>Julie Kye Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="./cursor.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
 
-  <div class = "container">
-    <canvas>
-    
-    </canvas>
-  </div>
-  
+<div class="container">
+  <canvas>
+  </canvas>
+</div>
 
-<body>  
-    
-   <script src= "./matrix.js"></script>
+<body>
 
-    <p class = "page-title">JULIE KYE<span id = "cursor">_</span>
+  <script src="./matrix.js"></script>
+
+  <section id="page1">
+    <p class="portfolio-title">JULIE KYE<span id="cursor">_</span>
     </p>
-  
     <div>
-   <!-- <img id = "profile_pic" class = "center" src = "https://github.com/asusoda.png"> -->
-
-    <p class = "summary-content">
-      <br>
-      > Hello there! Welcome to my portfolio, I am a 3rd year Computer Science student at Arizona State University. 
-      <br> > I am an eager learner who is always looking for new opportunities to advance my skills in software engineering. I am passionate about Object-Oriented Programming, Data Structures & Algorithms, and Web Development. My favorite programming languages are Java and C++, although I am also experienced in Python, HTML, CSS, and a little bit of JavaScript. 
-      <br> > Outside of my educational and career pursuits I am an avid traveler, pokemon enthusiast, and rock collecter!
-      <br> > If you would like to learn more about my relevant skills, experience, and personal projects regarding software development, please visit the following pages: 
-    </p>
+      <p class="content">
+        <br>
+        > <strong>Hello there! Welcome to my portfolio,</strong> I am a 3rd year Computer Science student at Arizona
+        State University.
+        <br> > I am an eager learner who is always looking for new opportunities to advance my skills in software
+        engineering. I am passionate about Object-Oriented Programming, Data Structures & Algorithms, and Web
+        Development.
+        My favorite programming languages are Java and C++, although I am also experienced in Python, HTML, CSS, and a
+        little bit of JavaScript.
+        <br> > Outside of my educational and career pursuits I am an avid traveler, Pokemon enthusiast, and rock
+        collecter!
+        <br> > If you would like to learn more about my relevant skills, experience, and personal projects regarding
+        software development, please visit the following pages:
+      </p>
     </div>
     <br>
-    <div class = "center">
-      
-    <a href= #projects>
-    <button class ="toggle-button" 
-    id = "projects_toggle">
-        projects 
-    </button>
+    <div class="buttons">
+      <a href=#page2>
+        <button class="toggle-button">
+          projects
+        </button>
+      </a>
+      <a href=#page3>
+        <button class="toggle-button">
+          experience
+        </button>
+      </a>
+    </div>
+  </section>
+  
+  <hr class="hr">
+
+  <section id="page2">
+    <div>
+      <p class="page-title">PERSONAL PROJECTS
+      </p>
+      <p class="content">
+        <br>
+        <strong class="subtitle"> DIJKSTRA'S SHORTEST PATH BETWEEN CITIES BY TRAIN</strong>
+        <br>
+        > This C++ program demonstrates Dijkstra's Shortest Path algorithm by taking inputs of departure cities and the
+        distances to each of its arrival cities.
+        <br>
+        > One source city must be specified by the user. The shortest paths from the source city to all reachable
+        arrival cities is then computed by considering all paths of connecting routes.
+        <br>
+        > View the full code here:
+        <a target="_blank" href="https://github.com/juliekye/Dijkstras-Shortest-Path-on-Train-Routes-Between-Citites"
+          class="project">
+          Dijkstra's Project
         </a>
+        <br>
+        <br>
+        <strong class="subtitle"> PERSONAL PORTFOLIO </strong>
+        <br>
+        > The purpose for building this portfolio was not only to showcase my skills in HTML, CSS, and JavaScript but
+        also to introduce myself as a programmer in a unique way. I personally enjoy learning through creating and this
+        was a fun way to display my skills and customize the website to my liking.
+        <br>
+        > View the code for this website!:
+        <br>
+      </p>
 
-   <a href= #experience>   
-    <button class = "toggle-button"
-    id = "experience_toggle">
-        experience
-    </button>
-      </a>
     </div>
-  
-<hr id="hr">
-  
-<section id="projects">
-  <div>
-    <p class = "projects_page">PERSONAL PROJECTS
-    </p>
+  </section>
 
-    <p class = "projects-content">
+  <hr class="hr">
+
+  <section id="page3">
+    <div>
+      <p class="page-title">EXPERIENCE
+      </p>
+
+      <p class="content">
+        <br>
+        <strong class="subtitle">WORK EXPERIENCE:</strong> UNDERGRADUATE TEACHING ASSISTANT
+        <br>
+        > As a UGTA for Data Structures & Algorithms, I primarily assisted in helping students with programming
+        assignments in C++. I was also responsible for holding exam review sessions and creating supplementary videos
+        for difficult topics from the course. This experience solidified my knowledge on acquiring time complexities for
+        algorithms to determine efficiency as well as implementing them with appropriate data structures. Other valuable
+        skills I gained through this was competency in teaching and increased profficiency C++.
+        <br>
+        > Click to watch a video on one of the course topics: <a target="_blank"
+          href="https://drive.google.com/file/d/1Iy-dv_B3FHYvFKQ2y0REELaWhyhJJZQT/view?usp=sharing" class="project">Red
+          Black Tree Tutorial</a>
+        <br>
+        <br>
+        <strong class="subtitle">EXTRA CURRICULAR INVOLVEMENT:</strong> <br>
+      <details>
+        <summary>SOFTWARE DEVELOPERS ASSOCIATION | CLUB MEMBER</summary>
+        <p>
+          > I have been a dedicated member of this club and attended weekly meetings to learn about the opportunities
+          within Computer Science. <br>
+          > I participated in a SoDA bootcamp to learn the basics of building and hosting a portfolio with HTML, CSS,
+          JavaScript, React, and Node.js. Another meaningful activity was competing in the annual coding challenge where
+          we solved problems similar to those on LeetCode.<br>
+          > learn more about this club on the <a target="_blank" href="https://thesoda.io/" class="links">SoDA
+            website</a>
+        </p>
+      </details>
+      <details>
+        <summary>WOMEN IN COMPUTER SCIENCE | CLUB MEMBER </summary>
+        <p>
+          > This organization has enabled me to meet other women in my major and be inspired by guest speakers who are
+          professionals in the tech industry. <br>
+          > WiCS held a coding challenge where I led a group of three students to compete as a team to solve algorithmic
+          coding challenges in Java. <br>
+          > learn more about this club on the <a target="_blank" href="https://asuwics.org/" class="links">WiCS
+            website</a>
+        </p>
+      </details>
+      <details>
+        <summary>
+          BLOCKCHAIN AT ASU | CLUB MEMBER </summary>
+        <p>
+          > A personal interest of mine is Blockchain technology and I have learned from the leaders in this club who
+          are
+          extremely passionate and involved in this sector of the tech industry. <br>
+          > I gained hands on learning experience during a three-day workshop with Hedera to build and deploy a
+          decentralized application (dApp). Using Solidity to code the smart contracts and the Hedera Testnet to deploy
+          them, we successfully demonstrated how to exchange their native cryptocurrency Hbar. <br>
+          > learn more about this club and on the <a target="_blank" href="https://blockchain.asu.edu/blockchainclub/"
+            class="links">Blockchain at ASU website</a> </p>
+      </details>
       <br>
-      DIJKSTRA'S SHORTEST PATH BETWEEN CITIES BY TRAIN
-      <br>
-      <br>
-      > This C++ program demonstrates Dijkstra's Shortest Path algorithm by taking inputs of departure cities and the distances to each of its arrival cities. 
-      <br>
-      > One source city must be specified by the user. The shortest paths from the source city to all reachable arrival cities is then computed by considering all paths of connecting routes. 
-      <br> 
-      > View the full code here:
-      <a href= "https://github.com/juliekye/Dijkstras-Shortest-Path-on-Train-Routes-Between-Citites" id = "project1"> Dijkstra's Project
-      </a>
-      <br>
-PERSONAL PORTFOLIO
-      <br>
-      > View the code for this website!: 
-      <br>
-    </p>
-      
-    
-  </div>
-  
-</section>
-  
-<hr id="hr2">  
+  </section>
 
-<section id="experience">
-  <div>
-  <p class = "experience_page">EXPERIENCE
-  </p>
+  <footer id="footer">
+    <div class="connect">
+      <a target="_blank" href="https://mail.google.com/?view=cm&fs=1&to=jkye417@gmail.com">
+        <img src="images/envelope.svg" height="50" width="50" alt="Email"> </a>
 
-  <p class = "experience-content">
-  <br>
-  WORK EXPERIENCE: UNDERGRADUATE TEACHING ASSISTANT
-  <br>
-    <br>
-    > As a UGTA for Data Structures & Algorithms, I primarily assisted in helping students with programming assignments in C++. I was also responsible for holding exam review sessions and creating supplementary videos for difficult topics from the course. This experience solidified my knowledge on acquiring time complexities for algorithms to determine efficiency as well as implementing them with appropriate data structures. Other valuable skills I gained through this was competency in teaching and increased profficiency C++.
-  <br>
-    > Click to watch a video on one of the course topics: <a href= "https://drive.google.com/file/d/1Iy-dv_B3FHYvFKQ2y0REELaWhyhJJZQT/view?usp=sharing" id="rbtvideo">Red Black Tree Tutorial</a>
-<br>
-    SKILLS: 
+      <a target="_blank" href="https://linkedin.com/in/juliekye">
+        <img src="images/linkedinlogo.svg" height="40" width="45" alt="LinkedIn" id="linkedin"> </a>
 
-    ACTIVITIES: 
+      <a target="_blank" href="https://github.com/juliekye">
+        <img src="images/githubpic.svg" height="50" width="50" alt="GitHub"> </a>
+    </div>
+  </footer>
 
-    
-</section>   
-<hr id="hr3">  
-  
-<footer id = "footer">
-      <div class = "connect">
-
-      <a target = "_blank" href = "https://gmail.com/jkye1@asu.edu">
-        <img src = "images/envelope-regular.svg" height= "50"
-        width= "50" alt = "Email"
-      </a>
-      
-      <a target = "_blank" href = "www.linkedin.com/in/juliekye">
-        <img src = "images/linkedin-in-brands.svg" height= "50"
-        width= "50" alt = "LinkedIn"
-      </a>
-      
-      <a target = "_blank" href = "https://github.com/juliekye">
-        <img src = "images/githubpic.svg" height= "50"
-        width= "50" alt = "GitHub"
-      </a>
-
-  </div>
-
-</footer>
- 
 </body>
-
 
 </html>
